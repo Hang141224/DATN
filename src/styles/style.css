@@ -1,0 +1,255 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #333;
+    padding: 0px 64px 0px 64px;
+}
+
+header {
+    background-color: #9D9EA2;
+    height: 30px;
+}
+
+nav {
+    background-color: yellow;
+    height: 30px;
+}
+
+.Check-out {
+    background-color: blue;
+    width: 1440px;
+}
+
+.noidung {
+    float: left;
+    background-color: #FFFFFF;
+    width: 686px;
+}
+
+h4 {
+    color: #060709;
+    font-size: 20px;
+}
+
+label {
+    font-size: 12px;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first,
+.last {
+    width: 333px;
+    height: 48px;
+    border-radius: 8px;
+    border: 2px solid #F4F4F4;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.country {
+    width: 686px;
+    height: 48px;
+    border: 2px solid#F4F4F4;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-3 {
+    width: 215px;
+    height: 48px;
+    border: 2px solid#F4F4F4;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.title {
+    color: #060709;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.title-ship {
+    font-weight: 500;
+    padding-left: 5px;
+}
+
+.note {
+    width: 686px;
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 98px;
+    border-radius: 8px;
+    border: 2px solid #F4F4F4;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+aside {
+    float: right;
+}
+
+.noidung-trai {
+    border: 1px solid #9D9EA2;
+    border-radius: 16px;
+    width: 430px;
+    height: 720px;
+    padding: 24px 24px 24px 24px;
+}
+
+.bang-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.bang {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.title-bang {
+    color: #9D9EA2;
+    float: left;
+}
+
+.title-info {
+    color: #060709;
+    float: right;
+    font-weight: 500;
+}
+
+.click-email {
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+.code {
+    width: 223px;
+    height: 48px;
+    color: #C8C9CB;
+    padding: 8px;
+    border: 2px solid #C8C9CB;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+.btn-apply {
+    float: right;
+    width: 137px;
+    height: 48px;
+    border-radius: 100px;
+    border: 2px solid #F3FBF4;
+    background-color: #F3FBF4;
+    color: #17AF26;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-apply:hover {
+    background-color: #17AF26;
+    color: #F3FBF4;
+}
+
+.title-note {
+    color: #717378;
+    font-size: 14px;
+    padding-left: 5px;
+    font-weight: 500;
+}
+
+.coin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coin-point {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.coin img {
+    width: 24px;
+    height: 24px;
+}
+
+.coin div {
+    margin: 0 10px;
+}
+
+.point {
+    color: #9D9EA2;
+    font-size: 14px;
+}
+
+.diem {
+    color: #060709;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.btn-tong {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #C8C9CB;
+    color: #FFFFFF;
+    width: 372px;
+    height: 56px;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-tong span {
+    margin: 0 10px;
+}
+
+.btn-tong .separator {
+    margin: 0 5px;
+}
+
+.btn-tong:hover {
+    background-color: #FFFFFF;
+    color: #C8C9CB;
+    border: 2px solid #C8C9CB;
+}
+
+.payment {
+    font-size: 12px;
+    color: #717378;
+}
+
+footer {
+    background-color: #060709;
+    height: 50px;
+    clear: both;
+}
