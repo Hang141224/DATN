@@ -32,9 +32,20 @@ nav {
     width: 686px;
 }
 
+.title-ship {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 h4 {
     color: #060709;
     font-size: 20px;
+}
+
+.soluong {
+    font-size: 16px;
+    color: #9D9EA2;
 }
 
 label {

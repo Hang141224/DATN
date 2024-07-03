@@ -10,7 +10,10 @@ const Checkout = () => {
             <main>
                 <div className="checkout mt-4">
                     <div className="noidung">
-                        <h4 className='text-red-500'>Shipping</h4>
+                        <div className='title-ship'>
+                            <h4>Shipping</h4>
+                            <span className='soluong'>(3)</span>
+                        </div>
                         <hr className="mt-4" />
                         <form action="">
                             <div className="name">
